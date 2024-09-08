@@ -13,5 +13,14 @@ For correct installation you must have `curl` installed.
 
 Installation occurs automatically after entering this command:
 ```bash
-sudo wget -O - "" | bash
+sudo wget -O - "https://raw.githubusercontent.com/Dertfin3051/awake-linux/remote-install/install.sh" | bash
 ```
+
+# How to run
+
+After installation, restart your terminal and enter this command:
+```bash
+awake
+```
+
+__As long as your terminal is open__, the computer will not go into sleep mode.
