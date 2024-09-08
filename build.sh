@@ -1,0 +1,1 @@
+pyinstaller --hidden-import pyautogui --hidden-import time --console --onefile awake-linux.py
