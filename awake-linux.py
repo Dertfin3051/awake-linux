@@ -1,7 +1,7 @@
 from pyautogui import moveTo, position
 from time import sleep
 
-version = "1.0"
+version = "1.1"
 
 logo = f"""
 
@@ -21,7 +21,6 @@ def main():
     while True:
         pos = [position().x, position().y]
         moveTo(pos[0] + 1, pos[1] + 1)
-        sleep(3 * 60)
         moveTo(pos[0], pos[1])
         sleep(3*60)
 
