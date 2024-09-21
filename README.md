@@ -1,5 +1,5 @@
 # Awake
-*For Linux by dertfin1 | v1.1*
+*For Linux by dertfin1 | v1.2*
 
 Awake is a simple program that allows you to disable sleep mode on your computer*
 

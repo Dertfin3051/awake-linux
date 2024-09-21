@@ -1,7 +1,7 @@
 from pyautogui import moveTo, position
 from time import sleep
 
-version = "1.1"
+version = "1.2"
 
 logo = f"""
 
@@ -25,8 +25,9 @@ def main():
         sleep(3*60)
 
 
-print("Program can't run as module!")
-
 if __name__ == '__main__':
     print(logo)
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        exit(0)
